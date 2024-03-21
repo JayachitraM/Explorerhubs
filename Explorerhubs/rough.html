@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adventure Explore</title>
+  
+  <link rel="stylesheet" href="css/Index.css">
+  <link rel="stylesheet" href="css/Adventure.css">
+
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><a href="#">Adventure world</a></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">Adventure</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="Index.html">HOME</a></li>
+          <li>
+            <a href="Images.html">IMAGES</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="#">India</a></li>
+              <li><a href="#">USA</a></li>
+              <li><a href="#">Germany</a></li>
+              <li><a href="#">Newzland</a></li>
+            </ul>
+          </li>
+          <li><a href="Adventure.html">ADVENTURE</a></li>
+          <li>
+            <a href="Destination.html">DESTINATION BLOG</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="#">India</a></li>
+              <li><a href="#">USA</a></li>
+              <li><a href="#">Germany</a></li>
+              <li><a href="#">newzland</a></li>
+
+              <li class="more">
+                <span><a href="#">More</a>
+                <i class='bx bxs-chevron-right arrow more-arrow'></i>
+              </span>
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="#">hhh</a></li>
+                  <li><a href="#">yyy</a></li>
+                  <li><a href="#">jjj</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </div>
+      
+    </div>
+  </nav>
+
+<div class="control">
+ 
+  <div class="btn-group">
+    <button class="btn btn-clicked" data-filter="all">All</button>
+    <button class="btn" data-filter="Skydiving">SkyDiving</button>
+    <button class="btn" data-filter="Scubadiving">ScubaDiving</button>
+    <button class="btn" data-filter="surfing">Surfing</button>
+    <button class="btn" data-filter="Bungee Jumping">BungeeJumping</button>
+    <button class="btn" data-filter="Paragliding">Paragliding</button>
+    <button class="btn" data-filter="surfing">Surfing</button>
+  </div>
+  
+  <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search...">
+<ul id="list">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+  <li>Item 4</li>
+  <li>Item 5</li>
+</ul>
+</div>
+
+<div class="containers">
+
+  <div class="box" data-item="Skydiving"> 
+    <video  src="images/India/Skydiving/Photos and videos/Skydiving VD1 (1).mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>SkyDiving</h2>
+  </div>
+  <div class="box"  data-item="Skydiving">
+    <video  src="images/India/Skydiving/Photos and videos/Skydiving VD1 (2).mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>SkyDiving</h2>
+  </div>
+  <div class="box"  data-item="Skydiving">
+    <video  src="images/India/Skydiving/Photos and videos/Skydiving VD (3).mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>SkyDiving</h2>
+  </div>
+
+
+  <div class="box" data-item="Skydiving"> 
+    <video  src="images/India/Skydiving/Photos and videos/Skydiving VD (4).mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>SkyDiving</h2>
+  </div>
+  <div class="box"  data-item="Skydiving">
+    <video  src="images/India/Skydiving/Photos and videos/Skydiving VD(5).mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>SkyDiving</h2>
+  </div>
+  
+  
+  <div class="box"  data-item="Surfing">
+    <video  src="images/India/Surfing/Photos and videos/Surfing vd (1).mp4" controls="controls" loops="loop"  width="200" height="300">
+   </video>
+   <h2>Surfing</h2>
+   </div>
+ 
+   <div class="box" data-item="Surfing"> 
+     <video  src="images/India/Surfing/Photos and videos/Surfing vd (2).mp4" controls="controls" loops="loop"  width="200" height="300">
+   </video>
+   <h2>Surfing</h2>
+   </div>
+
+   <div class="box" data-item="Surfing"> 
+    <video  src="images/India/Surfing/Photos and videos/Surfing vd (3).mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Surfing</h2>
+  </div>
+
+  <div class="box" data-item="Surfing"> 
+    <video  src="images/India/Surfing/Photos and videos/Surfing vd (4).mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Surfing</h2>
+  </div>
+
+  <div class="box" data-item="Surfing"> 
+    <video  src="images/India/Surfing/Photos and videos/Surfing vd (5).mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Surfing</h2>
+  </div>
+
+  <div class="box" data-item="Bungee Jumping"> 
+    <video  src="images/India/Bungee jumping/Photos and videos/Bungee jumping vd (1).mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Bungee Jumping</h2>
+  </div>
+
+  <div class="box" data-item="Bungee Jumping"> 
+    <video  src="images/India/Bungee jumping/Photos and videos/Bungee jumping vd (2).mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Bungee Jumping</h2>
+  </div>
+
+  <div class="box" data-item="Bungee Jumping"> 
+    <video  src="images/India/Bungee jumping/Photos and videos/Bungee jumping vd (3).mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Bungee Jumping</h2>
+  </div>
+
+  <div class="box" data-item="Bungee Jumping"> 
+    <video  src="images/India/Bungee jumping/Photos and videos/Bungee jumping vd (4).mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Bungee Jumping</h2>
+  </div>
+
+  <div class="box" data-item="Bungee Jumping"> 
+    <video  src="images/India/Bungee jumping/Photos and videos/Bungee jumping vd (5).mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Bungee Jumping</h2>
+  </div>
+  
+  <div class="box" data-item="Scubadiving"> 
+    <video  src="images/India/Scuba diving/Photos and videos/Scuba Diving vd2.mp4" controls="controls" loops="loop"  width="200" height="300">
+   </video>
+   <h2>Scuba Diving</h2>
+   </div>
+   <div class="box"  data-item="Scubadiving">
+    <video  src="images/India/Scuba diving/Photos and videos/Scuba Diving vd3.mp4" controls="controls" loops="loop"  width="200" height="300">
+   </video>
+   <h2>Scuba Diving</h2>
+   </div>
+   <div class="box"  data-item="Scubadiving">
+    <video  src="images/India/Scuba diving/Photos and videos/Scuba Diving vd4.mp4" controls="controls" loops="loop"  width="200" height="300">
+   </video>
+   <h2>Scuba Diving</h2>
+   </div>
+   
+   <div class="box"  data-item="Scubadiving">
+    <video  src="images/India/Scuba diving/Photos and videos/Scuba Diving vd1.mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Scuba Diving</h2>
+  </div>
+
+
+   <div class="box" data-item="Scubadiving"> 
+     <video  src="images/India/Scuba diving/Photos and videos/Scuba Diving vd5.mp4" controls="controls" loops="loop"  width="200" height="300">
+   </video>
+   <h2>Scuba Diving</h2>
+   </div>
+
+   <div class="box" data-item="Paragliding"> 
+    <video  src="images/India/Paragliding/Photos and videos/Paragliding vd (1).mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Paragliding</h2>
+  </div>
+
+  <div class="box" data-item="Paragliding"> 
+    <video  src="images/India/Paragliding/Photos and videos/Paragliding vd (2).mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Paragliding</h2>
+  </div>
+
+  <div class="box" data-item="Paragliding"> 
+    <video  src="images/India/Paragliding/Photos and videos/Paragliding vd (3).mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Paragliding</h2>
+  </div>
+
+  <div class="box" data-item="Paragliding"> 
+    <video  src="images/India/Paragliding/Photos and videos/Paragliding vd (4).mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Paragliding</h2>
+  </div>
+
+  <div class="box" data-item="Paragliding"> 
+    <video  src="images/India/Paragliding/Photos and videos/Paragliding vd (5).mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Paragliding</h2>
+  </div>
+  
+
+  <div class="box" data-item="Parasailing"> 
+    <video  src="images/India/Parasailing/Photos and videos/Parasailing vd1.mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Parasailing</h2>
+  </div>
+
+  <div class="box" data-item="Parasailing"> 
+    <video  src="images/India/Parasailing/Photos and videos/Parasailing vd2.mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Parasailing</h2>
+  </div>
+
+  <div class="box" data-item="Parasailing"> 
+    <video  src="images/India/Parasailing/Photos and videos/Parasailing vd3.mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Parasailing</h2>
+  </div>
+
+  <div class="box" data-item="Parasailing"> 
+    <video  src="images/India/Parasailing/Photos and videos/Parasailing vd4.mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Parasailing</h2>
+  </div>
+
+  <div class="box" data-item="Parasailing"> 
+    <video  src="images/India/Parasailing/Photos and videos/Parasailing vd5.mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Parasailing</h2>
+  </div>
+  
+
+  <div class="box" data-item="Rock climbing"> 
+    <video  src="images/India/Rock Climbing/Photos and videos/_new_trending_whatsapp_status_mountain_challenging_Clim_MDHiNB7rdAQ_137.mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Rock Climbing</h2>
+  </div>
+
+  <div class="box" data-item="Rock climbing"> 
+    <video  src="images/India/Rock Climbing/Photos and videos/VID_20230419_233157_421.mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Rock Climbing</h2>
+  </div>
+
+  <div class="box" data-item="Rock climbing"> 
+    <video  src="images/India/Rock Climbing/Photos and videos/VID_20230419_233221_884.mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Rock Climbing</h2>
+  </div>
+
+  <div class="box" data-item="Rock climbing"> 
+    <video  src="images/India/Rock Climbing/Photos and videos/VID_20230419_233454_024.mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Rock Climbing</h2>
+  </div>
+
+  <div class="box" data-item="Rock climbing"> 
+    <video  src="images/India/Rock Climbing/Photos and videos/VID_20230420_083421_343.mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Rock Climbing</h2>
+  </div>
+
+  <div class="box" data-item="Mountain Biking"> 
+    <video  src="images/India/Mountain biking/Photos and videos/_ladakh_Ladakh_Status_Ladakh_Whatsapp_Status_Ladakh_Tri_r-ZOntf2NO0_136.mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Mountain Biking</h2>
+  </div>
+
+  <div class="box" data-item="Mountain Biking"> 
+    <video  src="images/India/Mountain biking/Photos and videos/Epic_Adventure_Mountain_Bike_Ride_in_the_Ladakh_Dream_A_tAJIH1Izjbs_135.mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Mountain Biking</h2>
+  </div>
+
+
+  <div class="box" data-item="Mountain Biking"> 
+    <video  src="images/India/Mountain biking/Photos and videos/Ladakh_bike_trip__3-9Y2lf9K0s_244 (1).mkv" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Mountain Biking</h2>
+  </div>
+
+
+  <div class="box" data-item="Mountain Biking"> 
+    <video  src="images/India/Mountain biking/Photos and videos/ladakh_road_trip_whatsapp_status_chxG4FrkSR8_137.mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Mountain Biking</h2>
+  </div>
+
+
+  <div class="box" data-item="Mountain Biking"> 
+    <video  src="images/India/Mountain biking/Photos and videos/LEH_LADAKH_BIKE_TRIP_2022_Status_Video_shorts_status_la_E_oJcqGOGyg_136.mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Mountain Biking</h2>
+  </div>
+
+  <div class="box" data-item="Mountain Biking"> 
+    <video  src="images/India/Mountain biking/Photos and videos/LEH_LADAKH_BIKE_TRIP_2022_Status_Video_shorts_status_la_E_oJcqGOGyg_136.mp4" controls="controls" loops="loop"  width="200" height="300">
+  </video>
+  <h2>Mountain Biking</h2>
+  </div>
+
+ 
+</div>
+<footer>
+  <div class="main-content">
+    <div class="left box">
+      <h3>About us</h3>
+      <div class="content">
+        <p>Adventuring not only expands your mind by building up your bravery, but is also an opportunity to grow and learn. New environments and cultures are packed full of meaningful life lessons that you might not be exposed to in your everyday life. Adventures expand the way we see and interact with the world.</p>
+        <div class="social">
+          <a href="https://facebook.com/coding.np"><span class="fab fa-facebook-f"></span></a>
+          <a href="#"><span class="fab fa-twitter"></span></a>
+          <a href="https://instagram.com/coding.np"><span class="fab fa-instagram"></span></a>
+          <a href="https://youtube.com/c/codingnepal"><span class="fab fa-youtube"></span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="center box">
+      <h3>Address</h3>
+      <div class="content">
+        <div class="place">
+          <span class="fas fa-map-marker-alt"></span>
+          <span class="text">Best Locations</span>
+        </div>
+        <div class="phone">
+          <span class="fas fa-phone-alt"></span>
+          <span class="text">+91-9962605098</span>
+        </div>
+        <div class="email">
+          <span class="fas fa-envelope"></span>
+          <span class="text">adventuretravel@example.com</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="right box">
+      <h3>Contact us</h3>
+      <div class="content">
+        <form action="#">
+          <div class="email">
+            <div class="text">Email *</div>
+            <input type="email" required>
+          </div>
+          <div class="msg">
+            <div class="text">Message *</div>
+            <textarea rows="2" cols="25" required></textarea>
+          </div>
+          <div class="btn">
+            <button type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="bottom">
+    <center>
+      <span class="credit"> <a href="https://www.codingnepalweb.com">Adventure</a> | </span>
+      <span class="far fa-copyright"></span><span> 2023 All rights reserved.</span>
+    </center>
+  </div>
+</footer>
+
+<script src="javascript/Adventure.js"></script>
+<script src="Javascript/Index.js"></script>
+</body>
+</html>
