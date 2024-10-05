@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+.home{
+  width: 100%;
+  height: 100%;
+  background-image: url("background/bg5.jpg");
+  background-image:no-repeat;
+  background-size:cover;
+  position:absolute;
+  display: grid;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff;
+  
+}
+
+.home-title {
+  font-size: 2.5rem;
+  color: black;
+  font-weight: 700;
+}
+
+ video{
+  justify-content: space-between;
+  transform-origin: top;
+  background-color: black;
+}
+
+.containers{
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+  gap: 3rem;
+  margin-left: 40px;
+  padding-bottom: 50px;
+}
+.containers h2{
+  background-color: #181b20;
+  height: 30px;
+  width: 250px;
+  margin-bottom: 0px;
+  text-align: center;
+  justify-content: center;
+  padding: 0px 9px 0px ;
+}
+
+.control{
+  width: 100%;
+  margin-top: 50px;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-group button{
+    width: 160px;
+    height: 40px;
+    border: none;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    background-color:#007bff;
+    color:#fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.btn-group:focus {
+  color: #00a8c5;
+  outline: none;
+}
+.btn-group button:hover,
+.btn-group .btn-clicked
+{
+  background-color: #353b48;
+}
+
+#search{
+  width: 490px;
+  height: 80px;
+  background-color:#181b20;
+  border:3px solid #fff;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  color: #fff;
+  position: relative;
+  margin-top: 380px;
+  margin-left: 440px;
+}
+
+
+footer{
+  background-color: #fff;
+}
